@@ -1,0 +1,25 @@
+.header{
+  
+    height:700px;
+    position:relative;  
+   margin-bottom:10px;
+   
+   
+}
+.header:before{
+    content:'';
+    height:680px;
+    width: 100%;
+    position: absolute;
+    background: #FBD062;
+    background-size: cover;
+  clip-path: polygon(0 0, 0 95%, 900% -165%);
+}
+@media (max-height: 500px){
+    .header:before{
+        height:800px;
+    }
+    .header{
+        margin-bottom:25px;
+    }
+  }

@@ -1,0 +1,9 @@
+.footer{
+    background-color: #FBD062;
+    width: 100%;
+    min-height:690px;
+    margin-top:150px;
+}
+.text-area textarea{
+    height:277px;
+}

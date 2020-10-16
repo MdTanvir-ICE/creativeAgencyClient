@@ -1,0 +1,20 @@
+.service-card-body img{
+    width:60px;
+    height:60px;
+}
+
+.service-card-header{
+   margin-bottom: 30px;
+}
+.service-card-detail{
+    border:1px solid transparent;
+}
+.service-card-detail:hover{
+    transition: all 0.2s ease-out;
+    box-shadow: -1px 1px 5px 10px #f2f8f9;
+    top: -4px;
+    cursor: pointer;
+    border: 1px solid #cccccc;
+    background-color: white;
+
+}
